@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     text-transform: capitalize;
+    list-style: none;
 }
 
 header {
@@ -11,16 +12,11 @@ header {
     background-color: black;
 }
 
-li{
-    list-style: none;
-    color: aqua;
-}
-
-
 a {
     color: rgb(15, 15, 15);
     text-decoration: none;
     padding: 0px;
+    transition: padding 1s, background 1s, border-radius 1s, color 2s;
 }
 
 a:link {
@@ -32,14 +28,16 @@ a:visited {
 }
 
 a:hover {
-    background-color: rgba(250, 246, 246, 0.63);
+    background: rgba(250, 246, 246, 0.151);
     padding: 2px;
+    border-radius: 20px;
+    color: rgb(47, 0, 255);
 }
 
 
 nav {
     max-width: 1400px;
-    background: linear-gradient(black,white);
+    background: linear-gradient(rgb(248, 245, 245),rgb(13, 14, 13));
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -142,8 +140,9 @@ body {
 @media (max-width:800px) {
 
     nav {
-      /*propiedad necesaria para un futuro*/  
-      /*overflow-x: scroll;*/
+      /*propiedad necesaria para un futuro
+        overflow-x: scroll;
+        visibility: hidden; */
         margin: 0;
         min-height: 2vh;
     }
