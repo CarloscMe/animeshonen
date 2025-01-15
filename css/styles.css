@@ -3,3 +3,48 @@
 @import "./article.css";
 @import "./footer.css";
 
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+body {
+
+    background-color: rgb(243, 226, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+@media (max-width:800px) {
+
+    nav {
+      /*propiedad necesaria para un futuro
+        overflow-x: scroll; */
+        margin: 0;
+        min-height: 2vh;
+    }
+
+
+    section {
+        margin: 0;
+        margin-top: 4px;
+    }
+
+    main {
+        margin: 0;
+        margin-top: 4px;
+    }
+
+    a {
+        padding: 0;
+        margin: 1px;
+        font-size: small;
+    }
+
+    .grid{
+        margin: 0;
+        padding: 0;
+    }
+
+}

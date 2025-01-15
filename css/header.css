@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    color: rgb(247, 246, 246);
+    min-height: 40vh;
+    background-color: black;
+}
+
+a {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    padding: 0px;
+    transition: padding 1s, background 1s, border-radius 1s, color 2s;
+}
+
+a:link {
+    color: rgb(245, 248, 250);
+}
+
+a:visited {
+    color: rgb(245, 244, 240);
+}
+
+a:hover {
+    background: rgba(250, 246, 246, 0.151);
+    padding: 2px;
+    border-radius: 20px;
+    color: rgb(47, 0, 255);
+    text-decoration: underline;
+}
+
+
+nav {
+    background: linear-gradient(rgb(248, 245, 245),rgb(13, 14, 13));
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 2px;
+
+}
+
+main {
+    background-color: rgb(240, 234, 234);
+    margin: 50px;
+    display: flex;
+    color: rgb(158, 107, 40);
+}

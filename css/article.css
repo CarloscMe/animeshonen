@@ -1,0 +1,32 @@
+article {
+    background-color: rgb(250, 248, 248);
+    line-height: 1.75em;
+    flex-grow: 2;
+}
+
+h3 {
+    font-size: 25px;
+    border-bottom: 1px solid rgb(72, 72, 73);
+    margin-left: 10px;
+    color: rgba(11, 11, 12, 0.849);
+    margin-right: 5px;
+}
+
+p {
+
+    font-size: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h4 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    color: antiquewhite;
+    grid-column-start: span 3;
+}
+
