@@ -1,8 +1,7 @@
 
-section {
-    margin: 50px;
+.section {
     display: flex;
-    background-color: rgb(15, 15, 15);
+    margin: 50px;
 }
 
 .grid{
@@ -18,16 +17,4 @@ section {
     border: 1px solid;
 }
 
-.peliculas{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    border: 1px solid black;
-    margin:50px;
-}
-
-.peliculas__ova{
-    background-color: aqua;
-    border: 1px solid rgb(241, 12, 12);
-}
 

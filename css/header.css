@@ -1,8 +1,16 @@
-header {
+.header {
     display: flex;
     color: rgb(247, 246, 246);
     min-height: 40vh;
     background-color: black;
+}
+
+.nav {
+    background: linear-gradient(rgb(248, 245, 245),rgb(13, 14, 13));
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 2px;
 }
 
 a {
@@ -28,19 +36,8 @@ a:hover {
     text-decoration: underline;
 }
 
-
-nav {
-    background: linear-gradient(rgb(248, 245, 245),rgb(13, 14, 13));
+.principal {
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    margin-top: 2px;
-
-}
-
-main {
-    background-color: rgb(240, 234, 234);
+    background-color: rgb(255, 253, 253);
     margin: 50px;
-    display: flex;
-    color: rgb(158, 107, 40);
 }
