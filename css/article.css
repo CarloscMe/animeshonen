@@ -29,5 +29,9 @@ p {
     margin-right: 10px;
 }
 
-
+strong , span{
+    text-transform: lowercase;
+    color: rgba(7, 7, 7, 0.993);
+    font-weight: 200;
+}
 
