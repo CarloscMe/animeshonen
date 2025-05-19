@@ -2,6 +2,9 @@
 .section {
     display: flex;
     margin: 50px;
+    animation: aparecer both;
+    animation-timeline: view();
+    animation-range: cover 0% contain 0%;
 }
 
 .grid{
@@ -17,4 +20,14 @@
     border: 1px solid;
 }
 
+@keyframes aparecer{
+from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
 
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}

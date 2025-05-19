@@ -50,6 +50,14 @@ body {
         padding: 0;
     }
 
+    .grid__items{
+        border: none;
+    }
+
+    ul{
+        font-size: small;
+    }
+
 }
 
 @media(min-width: 1900px){
